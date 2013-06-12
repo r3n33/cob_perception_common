@@ -70,6 +70,8 @@ CobKinectImageFlip::CobKinectImageFlip(ros::NodeHandle nh)
 	img_sub_counter_ = 0;
 	pc_sub_counter_ = 0;
 
+	ROS_INFO(" nh: %s", node_handle_.getNamespace().c_str());
+
 	std::cout << "\n--------------------------\nKinect Image Flip Parameters:\n--------------------------" << std::endl;
 	node_handle_.param("flip_color_image", flip_color_image_, false);
 	std::cout << "flip_color_image = " << flip_color_image_ << std::endl;
