@@ -8,11 +8,11 @@ rotation_angle: 0
 
 # reference world coordinate frame with z-axis pointing upwards (= against gravity direction)
 # string
-reference_frame: base_link
+reference_frame: camera_link
 
 # camera coordinate frame (image coordinate system with x-axis to the right, y-axis downwards, z-axis into viewing direction of the camera)
 # string
-camera_frame: cam3d_rgb_optical_frame
+camera_frame: camera_rgb_optical_frame
 
 # flip color image
 # bool

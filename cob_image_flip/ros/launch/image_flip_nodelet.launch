@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <launch>
-	<arg name="camera" default="cam3d" />
+	<arg name="camera" default="camera" />
 	<arg name="start_manager" default="false"/>
 	<arg name="nodelet_manager" default="$(arg camera)_nodelet_manager"/>
 	
